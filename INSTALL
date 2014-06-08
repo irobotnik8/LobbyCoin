@@ -1,0 +1,9 @@
+Building LobbyCoin
+
+See doc/readme-qt.rst for instructions on building lobbycoin-qt,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of LobbyCoin.
+
+See doc/build-*.txt for instructions on building lobbycoin,
+the intended-for-services, no-graphical-interface, reference
+implementation of LobbyCoin.
