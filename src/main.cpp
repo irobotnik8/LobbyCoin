@@ -29,7 +29,7 @@ CTxMemPool mempool;
 unsigned int nTransactionsUpdated = 0;
 
 map<uint256, CBlockIndex*> mapBlockIndex;
-uint256 hashGenesisBlock("0x0c7ae925d4e5ba46a6019840660b2d88c38d360d744654c09a982ec2b07e3505");
+uint256 hashGenesisBlock("0x2ab2b74dd0a4853fd62fe9c2f608c4c1b473fb56cf6128296f2811c376761e75");
 static CBigNum bnProofOfWorkLimit(~uint256(0) >> 20); // starting difficulty is 1 / 2^12
 CBlockIndex* pindexGenesisBlock = NULL;
 int nBestHeight = -1;
@@ -2016,7 +2016,7 @@ bool LoadBlockIndex(bool fAllowNew)
         block.nVersion = 1;
         block.nTime    = 1402240015; //epochtime
         block.nBits    = 0x1e0ffff0;
-        block.nNonce   = 1447297;
+        block.nNonce   = 2169993;
 
         if (fTestNet)
         {
